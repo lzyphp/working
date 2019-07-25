@@ -1,0 +1,145 @@
+@CHARSET "UTF-8";
+#main{
+	
+}
+#header{
+	line-height: 30px;
+	background-color: rgba(236, 245, 249, 1);
+}
+#msg{
+	font-family: "微软雅黑";
+}
+#mainContant{
+	text-indent: 15px;
+	line-height: 45px;
+	position: relative;
+	top: 20px;
+}
+/*search*/
+#search_main{
+	position: relative;
+	left: 30px;
+	top: 30px;
+}
+.sc_main li{
+	float: left;
+	font-size: medium;
+	margin-right: 10px;
+}
+.sc_main li label{
+	margin-right: 5px;
+}
+.scinput{
+	border: 1px solid  #ced9df;
+	height: 30px;
+	line-height: 30px;
+	background-image: url(../img/right/inputbg.gif);
+	text-indent: 10px;
+}
+.scselect{
+	border: 1px solid  #ced9df;
+	width: 100px;
+	height: 35px;
+	line-height: 30px;
+	background-image: url(../img/right/inputbg.gif);
+	text-indent: 10px;
+}
+.btn{
+	background-color: rgba(58, 147, 199, 1);
+	height: 35px;
+	line-height: 35px;
+	border-radius: 5px;
+	width: 100px;
+	color: white;
+}
+/*tool*/
+.tools{
+	width: 200px;
+	margin-top: 90px;
+}
+.toolbar{
+	width: 300px;
+}
+.toolbar li{
+	float: left;	
+	margin-right: 5px;
+	font-size: medium;
+}
+/*table*/
+.tablelist{
+	float: left;
+	margin-top: 15px;
+	width: 100%;
+	border: 5px solid rgba(202, 202, 202, 1);
+	line-height: 25px;
+}
+.tablelist td{
+	text-align: center;
+}
+.tablelist thead{
+	background-color: rgba(206, 217, 223, 1);
+}
+.tablelist tbody{
+	background-color: rgba(244, 247, 249, 1);
+	border-right: 1px dotted grey;
+	align:center;
+}
+.tablelist a:link,a:visited{
+	text-decoration: none;
+	color:lightseagreen;
+}
+/*form*/
+.formbody{
+	
+}
+.formtitle{
+	border-bottom: 1px solid gray;
+	height: 40px;
+	text-indent: 10px;
+}
+.formtitle span{
+	font-family: "微软雅黑";
+	font-size: medium;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 3px solid #3089BC;
+}
+.forminfo{
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.forminfo li{
+	line-height: 40px;
+}
+.forminfo li label{
+	display: inline-block;
+	width: 150px;
+	font-family: "微软雅黑";
+}
+.forminput{
+	border: 1px solid  #ced9df;
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	background-image: url(../img/right/inputbg.gif);
+	text-indent: 10px;
+}
+/* 分页 */
+ul.pagination {
+    display: inline-block;
+	margin-top: 15px;
+	margin-right:0px;
+    float: right;
+}
+ul.pagination li {display: inline;}
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}

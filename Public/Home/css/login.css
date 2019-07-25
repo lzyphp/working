@@ -1,0 +1,33 @@
+﻿html{*overflow:auto;}
+body{ font-family:'微软雅黑';background: #2074bb;}
+#container{ position:relative; background:url(../images/login_light.png) no-repeat center center;}
+
+#bd{}
+.login{ margin:0 auto; padding-top:15px; width:640px; height:405px; background:url(../images/login_pro.png);}
+.login .login-top{ margin:0 auto; width:590px; height:161px; background:url(../images/login_img.jpg);}
+.login .login-top h1{ height:161px; margin-left:27px; background:url(../images/login_logo.png) no-repeat center center;}
+.login .login-input{ margin-top:21px; padding-left:165px;}
+.login .login-input p{ margin-top:11px; line-height:39px;}
+.login .login-input p label{ float:left; text-align:right; width:51px; color:#000000; font-size:16px; }
+.login .login-input p input{ padding:0 0 0 10px; margin-left:16px; width:195px; height:39px;line-height:39px\0; *line-height:39px; border:1px #bfe4fb solid; border-radius: 5px; outline:none; }
+.login .login-input p.user input{ background:url(../images/login_user.png);}
+.login .login-input p.password input{ background:url(../images/login_password.png);}
+.login .login-btn{ margin-top:18px; padding-left:232px; line-height:38px;}
+.login .login-btn .btn{ float:left; width:208px; height:39px; background:url(../images/login_btn.png);  color:#fff; text-align:center; font-size:16px;font-family:'微软雅黑';}
+
+/*验证码*/
+.login1{ margin:0 auto; padding-top:15px; width:640px; height:460px; background:url(../images/login_pro1.png) no-repeat;}
+.login1 .login-top{ margin:0 auto; width:590px; height:161px; background:url(../images/login_img.jpg);}
+.login1 .login-top h1{ height:161px; margin-left:27px; background:url(../images/login_logo.png) no-repeat center center;}
+.login1 .login-input{ margin-top:21px; padding-left:165px;}
+.login1 .login-input p{ margin-top:11px; line-height:39px;}
+.login1 .login-input p label{ float:left; text-align:right; width:51px; color:#000000; font-size:16px; }
+.login1 .login-input p input{ padding:0 0 0 10px; margin-left:16px; width:195px; height:39px;line-height:39px\0; *line-height:39px; border:1px #bfe4fb solid; border-radius: 5px; outline:none; }
+.login1 .login-input p.user input{ background:url(../images/login_user.png);}
+.login1 .login-input p.password input{ background:url(../images/login_password.png);}
+.login1 .login-btn{ margin-top:18px; padding-left:232px; line-height:38px;}
+.login1 .login-btn .btn{ float:left; width:208px; height:39px; background:url(../images/login_btn.png);  color:#fff; text-align:center; font-size:16px;font-family:'微软雅黑';}
+
+#ft{ position:absolute;left:0;right:0;bottom:40px; color:#10486b; text-align:center; z-index:2;}
+
+
